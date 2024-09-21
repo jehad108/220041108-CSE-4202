@@ -42,28 +42,25 @@ public:
         sum += add;
         if (sum < 0)
         {
-            sum = sum%86400 + 86400;
+            sum = sum % 86400 + 86400;
         }
-        cout << sum << endl;
-        sum = sum % 86400;
-        cout << sum<<endl;
-        hour = (sum/3600) % 24;
+        hour = (sum / 3600) % 24;
         sum = sum % 3600;
         minutes = sum / 60;
         sum = sum % 60;
         second = sum;
     }
+    void print()
+    {
+        cout << "hour: " << hour << " minutes: " << minutes << " seconds: " << second << endl;
+    }
 };
 int main()
 {
     Time student(10, 30, 45);
-    cout << "Hours: " << student.getHours() << endl;
-    cout << "Minutes: " << student.getMinutes() << endl;
-    cout << "Seconds: " << student.getSeconds() << endl;
+    student.print();
     student.advance(-44, -30, 45);
-    cout << "Hours: " << student.getHours() << endl;
-    cout << "Minutes: " << student.getMinutes() << endl;
-    cout << "Seconds: " << student.getSeconds() << endl;
+    student.print();
 
     return 0;
 }
