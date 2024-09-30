@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1727678893 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\lab_task2\main.cpp
+	<iostream>
+	"employee.h"
+
+1727678962 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\lab_task2\src\employee.cpp
+	"employee.h"
+	<bits/stdc++.h>
+
+1727678812 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\lab_task2\include\employee.h
+	<bits/stdc++.h>
+
