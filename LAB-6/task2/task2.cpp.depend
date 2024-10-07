@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1728285558 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\task2.cpp\main.cpp
+	<iostream>
+	"Coordinate.h"
+
+1728284630 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\task2.cpp\src\coordinate.cpp
+	"Coordinate.h"
+	<bits/stdc++.h>
+	<random>
+	<ctime>
+
+1728284630 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\task2.cpp\include\coordinate.h
+

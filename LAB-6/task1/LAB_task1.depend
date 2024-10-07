@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1728280644 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\lab_task1\src\counter.cpp
+	"counter.h"
+	<bits/stdc++.h>
+
+1728280644 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\lab_task1\include\counter.h
+
+1728281071 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\lab_task1\main.cpp
+	<iostream>
+	"counter.h"
+
