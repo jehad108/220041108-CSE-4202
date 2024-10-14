@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Multiple C++ Files",  // Task label
+            "type": "shell",  // Use shell commands
+            "command": "g++",  // Compiler
+            "args": [
+                // List all the .cpp files you want to compile
+                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}/src/anotherfile.cpp",
+                "${workspaceFolder}/src/thirdfile.cpp",
+                // Specify the output executable
+                "-o", "${workspaceFolder}/bin/myprogram.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compiles multiple C++ files into one executable"
+        },
+        {
+            "label": "Run Executable",  // Task label for running the compiled program
+            "type": "shell",  // Use shell commands
+            "command": "${workspaceFolder}/bin/myprogram.exe",  // Run the executable
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
