@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1730701901 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\src\animals.cpp
+	"animals.h"
+
+1730701905 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\include\animals.h
+	<bits/stdc++.h>
+
+1730702826 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\main.cpp
+	<iostream>
+	"animals.h"
+	"cat.h"
+	"petcat.h"
+	"chicken.h"
+	"cow.h"
+
+1730703333 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\src\cat.cpp
+	"cat.h"
+	"animals.h"
+
+1730703315 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\include\cat.h
+	"animals.h"
+
+1730701909 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\src\chicken.cpp
+	"chicken.h"
+
+1730701908 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\include\chicken.h
+	"animals.h"
+
+1730701810 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\src\cow.cpp
+	"cow.h"
+
+1730701807 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\include\cow.h
+	"animals.h"
+
+1730701711 source:c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\src\petcat.cpp
+	"petcat.h"
+
+1730701689 c:\users\jehad\onedrive\desktop\git demo\220041108-cse-4202\animal\include\petcat.h
+	"cat.h"
+
